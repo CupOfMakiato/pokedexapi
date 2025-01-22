@@ -1,0 +1,34 @@
+
+.dropdown-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.dropdown-container select {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 200px;
+  border: 2px solid #007BFF; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+  color: #333; 
+  outline: none;
+  transition: all 0.3s ease-in-out; 
+  cursor: pointer;
+}
+
+
+.dropdown-container select:hover,
+.dropdown-container select:focus {
+  border-color: #0056b3; 
+  background-color: #e8f0fe; 
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); 
+}
+
+.dropdown-container select option {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  padding: 10px;
+}
